@@ -2,10 +2,6 @@
 ## Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本 <img src="https://raw.githubusercontent.com/wulabing/Xray_onekey/main/image/project_xray.jpg" alt="Project_Xray" width="122" height="30" align="bottom" />
 
 
-> 感谢 JetBrains 提供的非商业开源软件开发授权！
-
-> Thanks for non-commercial open source development authorization by JetBrains!
-
 ### 由于 xtls 存在被阻断的可能性，建议使用 Nginx 前置版本
 
 ### Telegram 群组
@@ -62,13 +58,13 @@ wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.c
 
 ### 启动方式
 
-启动 Xray：`systemctl start xray`
+Start Xray：`systemctl start xray`
 
-停止 Xray：`systemctl stop xray`
+Stop Xray：`systemctl stop xray`
 
-启动 Nginx：`systemctl start nginx`
+Start Nginx：`systemctl start nginx`
 
-停止 Nginx：`systemctl stop nginx`
+Stop Nginx：`systemctl stop nginx`
 
 ### 相关目录
 
@@ -79,30 +75,3 @@ Xray 服务端配置：`/usr/local/etc/xray/config.json`
 Nginx 目录： `/etc/nginx`
 
 证书文件： `/ssl/xray.key`（私钥）和 `/ssl/xray.crt`（证书公钥）
-
-### 捐赠
-
-您可以使用我的 搬瓦工 AFF 购买 VPS
-
-https://bandwagonhost.com/aff.php?aff=63939
-
-您可以使用我的 JustMySocks AFF 购买搬瓦工提供的代理
-
-https://justmysocks.net/members/aff.php?aff=17621
-
-您可以使用我的 DMIT AFF 购买 VPS
-
-https://www.dmit.io/aff.php?aff=3957
-
-您可以使用我的 Vultr AFF 创建新的 Vultr 账号并使用
-
-https://www.vultr.com/?ref=6881279
-
-您可以通过 USDT 支持我，感谢您的支持
-TRC20:TFannfnajNGYsMTuVDcXfZXXPbcaxAEffa
-
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/wulabing/Xray_onekey.svg)](https://starchart.cc/wulabing/Xray_onekey)
-
